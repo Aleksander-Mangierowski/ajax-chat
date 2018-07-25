@@ -27,6 +27,8 @@ const user = {};
         user.name = authModal.querySelector('input[name="name"]').value;
         user.nick = authModal.querySelector('input[name="nick"]').value;
 
+        document.querySelector('.header span.greetings').innerHTML = `Hello, ${user.name} (@${user.nick})!`
+
         document.body.classList.remove('overflow-hidden');
 
         const options = {
