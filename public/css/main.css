@@ -119,6 +119,14 @@ span.nick {
   background-color: #2980b9;
   font-size: 4rem;
   padding: 15px 0; }
+  .header .header-wrp {
+    display: flex;
+    justify-content: space-between; }
+    .header .header-wrp .greetings {
+      font-size: 2rem;
+      font-weight: 300;
+      font-style: italic;
+      margin-top: auto; }
 
 .footer {
   color: #444;

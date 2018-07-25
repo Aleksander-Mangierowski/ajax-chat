@@ -1,6 +1,6 @@
 module.exports = {
-  dbname: "demotest",
-  uri: "mongodb://localhost:27017/demotest",
+  dbname: "bsa-demo-test",
+  uri: "mongodb://root:q1w2e3@ds153851.mlab.com:53851/bsa-demo-test",
   opts: {
     useNewUrlParser: true,
     auto_reconnect: true,
